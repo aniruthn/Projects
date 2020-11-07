@@ -2,11 +2,11 @@ import math
 
 #accounts for both positive and negative y values by solving for y in the equation of a circle
 def CircleEq (x, centerX, centerY, radius, sign):
-    return centerY + sign * math.sqrt(radius**2 - (x-centerX)**2);
+    return centerY + sign * math.sqrt(radius**2 - (x-centerX)**2)
 
 #simplifies finding length
 def lengthBetweenPoints (x1, y1, x2, y2):
-    return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2);
+    return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 
 point1 = input("What is the first point? (in (x,y) form) ")
 xA = float(point1[1])
